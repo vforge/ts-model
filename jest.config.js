@@ -1,15 +1,23 @@
 module.exports = {
   transform: {
-    '.(ts|tsx)': '/Users/v/Code/ts-model/node_modules/ts-jest/dist/index.js',
+    '.(ts|tsx)': './node_modules/ts-jest/dist/index.js',
   },
   transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverageFrom: ['src/**/*.{ts,tsx}'],
   testMatch: ['<rootDir>/test/**/*.(spec|test).{ts,tsx}'],
   testURL: 'http://localhost',
-  rootDir: '/Users/v/Code/ts-model',
+  rootDir: '.',
   watchPlugins: [
-    '/Users/v/Code/ts-model/node_modules/jest-watch-typeahead/filename.js',
-    '/Users/v/Code/ts-model/node_modules/jest-watch-typeahead/testname.js',
+    './node_modules/jest-watch-typeahead/filename.js',
+    './node_modules/jest-watch-typeahead/testname.js',
   ],
+  globals: {
+    'ts-jest': {
+      diagnostics: {
+        // 6133 - X is declared but its value is never read.
+        ignoreCodes: ['TS6133'],
+      },
+    },
+  },
 };
