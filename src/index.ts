@@ -18,6 +18,10 @@ class Model implements IData {
   public static build(data?: IData): Model {
     return new this(data);
   }
+
+  public static buildList(data?: Array<IData>): Array<Model> {
+    return data ? data.map((item: IData) => this.build(item)) : [];
+  }
 }
 
 export default Model;
