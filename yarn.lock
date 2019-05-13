@@ -4012,10 +4012,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^1.17.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.0.tgz#53b303676eed22cc14a9f0cec09b477b3026c008"
-  integrity sha512-sXe5lSt2WQlCbydGETgfm1YBShgOX4HxQkFPvbxkcwgDvGDeqVau8h+12+lmSVlP3rHPz0oavfddSZg/q+Szjw==
+prettier@^1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.1.tgz#ed64b4e93e370cb8a25b9ef7fef3e4fd1c0995db"
+  integrity sha512-TzGRNvuUSmPgwivDqkZ9tM/qTGW9hqDKWOE9YHiyQdixlKbv7kvEqsmDPrcHJTKwthU774TQwZXVtaQ/mMsvjg==
 
 pretty-format@^23.6.0:
   version "23.6.0"
@@ -5103,10 +5103,10 @@ ts-jest@^24.0.2:
     semver "^5.5"
     yargs-parser "10.x"
 
-tsdx@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/tsdx/-/tsdx-0.5.7.tgz#916108b456e7c073aa7a90ce37e9ced26a55a82e"
-  integrity sha512-ap33HX89h/9o7d/OdfaQa5y/IsnnI3m2RorYTBznswfCG0FL/V8vB8erChNe02DcxM8dZkBhbUq6hqz3/gcV2w==
+tsdx@^0.5.9:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/tsdx/-/tsdx-0.5.9.tgz#5ec60dfd3fc59d7fe2ad3fdadce21ed264b5a5e0"
+  integrity sha512-E2B7rY4mz0omcJ+jjjgkrOCePaVcv8eXja4I/nnlxz7IaSxqu2tMaOorUqeAOx9xntgXGY+cqz0o+HN1ou752Q==
   dependencies:
     "@babel/core" "^7.2.2"
     "@jaredpalmer/rollup-plugin-preserve-shebang" "^0.1.7"

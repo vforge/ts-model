@@ -1,3 +1,3 @@
 # ts-model
 
-TypeScript ES6 Model mashup
+A dead simple library for models in ES6 environment. TS-friendly.
